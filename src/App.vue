@@ -45,7 +45,7 @@
                 </div>
             </nav>
             <section class="hero">
-                <img src="../src/assets/img/main.jpg" alt="Делаем больше чем просто SEO">
+                <img src="@/assets/img/main.jpg" alt="Делаем больше чем просто SEO">
                 <div class="wrapper">
                     <h1>Делаем больше чем просто SEO</h1>
                     <p>
