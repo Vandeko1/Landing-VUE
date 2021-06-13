@@ -28,7 +28,7 @@
                     }" virtual>
                         <swiper-slide v-for="(slide, index) in services" :key="slide.ID" :virtualIndex="index">
                             <div class="services__item">
-                                <img class="services__item-img" :src="`../../src/assets/img/services/${slide.ID}.jpg`" alt="`${slide.NAME}`">
+                                <img class="services__item-img" :src="`/src/assets/img/services/${slide.ID}.jpg`" alt="`${slide.NAME}`">
                                 <h3 class="services__item-header">{{slide.NAME}}</h3>
                             </div>
 
@@ -72,7 +72,6 @@
             this.axios
                 .get('https://b24crm-nst.s11.itua.in.ua/rest/513/tz8j9hozz843f81k/lists.element.get.json?IBLOCK_TYPE_ID=lists&IBLOCK_ID=152&ELEMENT_ORDER[ID]=ASC')
                 .then(response => (this.services = response.data.result))
-                  .then(res => (console.log(res)));
         }
     }
 </script>

@@ -523,6 +523,10 @@ a {
 //        max-width: 999px;
         margin: 0 auto;
     }
+    /* swiper fix */
+    .swiper-slide {
+        max-width: 241px;
+    }
     .services__item {
         margin-top: 24px;
         width: 235px;
@@ -742,7 +746,6 @@ a {
         right: 0;
         height: 310px;
         margin-top: -310px;
-        width: 100vw;
         background-color: #0B0D17;
         z-index: -1;
     }
