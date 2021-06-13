@@ -47,7 +47,7 @@
                     }" virtual>
                         <swiper-slide v-for="(slide, index) in news" :key="slide.ID" :virtualIndex="index">
                              <div class="news__item">
-                                <img class="news__item-img" :src="`./src/assets/img/news/${slide.ID}.jpg`" alt="${slide.NAME}`">
+                                <img class="news__item-img" :src="`./src/assets/img/${slide.ID}.jpg`" alt="${slide.NAME}`">
                                 <div class="news__item-info">
                                     <a class="news__item-tag" href="">SEO</a>
                                     <svg width="15" height="1" viewBox="0 0 15 1" fill="none" xmlns="http://www.w3.org/2000/svg">
