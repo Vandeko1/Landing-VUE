@@ -28,7 +28,7 @@
                     }" virtual>
                         <swiper-slide v-for="(slide, index) in services" :key="slide.ID" :virtualIndex="index">
                             <div class="services__item">
-                                <img class="services__item-img" :src="`/src/assets/img/services/${slide.ID}.jpg`" alt="`${slide.NAME}`">
+                                <img class="services__item-img" :src="`./src/assets/img/services/${slide.ID}.jpg`" alt="`${slide.NAME}`">
                                 <h3 class="services__item-header">{{slide.NAME}}</h3>
                             </div>
 
